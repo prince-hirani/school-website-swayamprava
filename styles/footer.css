@@ -1,0 +1,175 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+
+footer .footer-page{
+    gap: 2.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 5rem ;
+
+    
+}
+footer .footer-page .company-logo{
+    width: fit-content;
+    opacity: 0px;
+    aspect-ratio: 1.0;
+
+}
+
+footer .footer-page .footer-frame{
+    padding-right:  4em;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .footer-page .footer-frame .frame-adress{
+    display: flex;
+    flex-direction: column;
+    gap: 2.625em;
+    justify-content: flex-start;
+
+}
+footer .footer-page .footer-frame .frame-adress .frame-communication{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .footer-page .footer-frame .frame-adress .frame-communication .footer-communication{
+    display: flex;
+    gap: 2em; 
+    padding: 0.5em;
+    
+}
+footer .footer-page .footer-frame .frame-adress .frame-communication .footer-communication .communication{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+footer .footer-page .footer-frame .frame-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+footer .footer-page .footer-frame .frame-info .footer-nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+footer .footer-page .footer-frame .frame-info .social-media{
+    display: flex;
+    gap: 1em;
+}
+
+
+
+
+/*-------mediaquery section------  */
+
+
+
+@media only screen and (max-width: 560px) {
+footer{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-secoundary-gray);
+    
+
+ .footer-page{
+padding: 1em;    
+
+
+    .footer-frame{
+        gap: 5em;
+
+        .frame-adress{
+
+
+
+.frame-communication{
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.footer-communication{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-start; 
+
+    .communication-1{
+        display: flex;
+        align-items: flex-start;
+        gap: 1em;
+        padding: 0.5em;
+        
+    }
+    .communication-2{
+        display: flex;
+        align-items: flex-start;
+        gap: 1em;
+        padding: 0.5em;
+    
+    
+
+    }
+
+    
+ } 
+
+
+        }
+        .frame-info{
+            gap: 4em;
+            flex-direction: column-reverse;
+            text-align: right;
+            justify-content: flex-start;
+            
+
+            .social-media{
+                gap:0.5em;
+                padding-right: 12rem;
+
+            }
+            
+
+.footer-nav{
+    
+    
+    ul{
+        gap: 1.5em;
+    }
+
+
+
+
+
+
+        }
+    }
+ }   
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+

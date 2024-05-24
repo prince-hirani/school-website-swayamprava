@@ -1,0 +1,283 @@
+
+:root{
+    margin: 0;
+    padding: 0;
+    font-size: clamp(10px, 1.125vw, 22px);
+
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+h1,
+.h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1.medium,
+.h1.medium {
+    font-size: 6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1.bold,
+.h1.bold {
+    font-size: 6rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+h2,
+.h2 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2.medium,
+.h2.medium {
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+h2.bold,
+.h2.bold {
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+h3,
+.h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+h3.medium,
+.h3.medium {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+h3.bold,
+.h3.bold {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+h4,
+.h4 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h4.medium,
+.h4.medium {
+    font-size: 2.25rem;
+    font-weight: 400;
+
+}
+
+h4.bold,
+.h4.bold {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+h5,
+.h5 {
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+h5.medium,
+.h5.medium {
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+h5.bold,
+.h5.bold {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+h6,
+.h6 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+h6.medium,
+.h6.medium {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+h6.bold,
+.h6.bold {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+p,
+.p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+p.medium,
+.p.medium {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+p.bold,
+.p.bold {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+.p2,
+p.p2 {
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.p2.medium {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.p2.bold {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+.p3,
+p.p3 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.p3.medium {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.p3.bold {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+
+.caption {
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.caption.medium {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.caption.bold {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+
+.caption2 {
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.caption2.medium {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin: 0;
+} 
+.arrow{
+    width: 20px;
+    height: 13.41px;
+    
+}
+    
+a{
+    list-style-type: none;
+    text-decoration-line: none;
+    color: var(--color-secoundary-gray);
+
+}
+
+.icons{
+    width: fit-content;
+    height:3rem ;
+
+}
+.media{
+    width: 1rem;
+    height:1.5rem ;
+
+}

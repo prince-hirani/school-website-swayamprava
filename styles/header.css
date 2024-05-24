@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+container{
+    font-size: clamp(10px, 1.4vw, 24px);
+    max-width: 100vw;
+    padding: 1rem 5rem ;
+
+
+
+}
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem ;
+    opacity: 0px;
+    align-items: center;
+    
+}
+ header .company-logo{
+    width: 5.338rem;
+     opacity: 0px;
+     aspect-ratio: 1.0;
+
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 3em;
+    text-decoration: none;
+}
+
+  header .page-info{
+    display: flex;
+    align-items: center;width: Fixed (154px)px;
+    height: Fixed (49px)px;
+    padding: 10px 15px 10px 15px;
+    gap: 0.5em;
+    border-radius: 50px;
+    opacity: 0px;
+  
+    
+}
+
+
+ 
+
+
+
+
+
